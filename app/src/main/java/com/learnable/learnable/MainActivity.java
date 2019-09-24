@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.GridLayout;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayoutjavascript;
     LinearLayout linearLayoutwordpress;
     LinearLayout linearLayoutlaravel;
+    LinearLayout linearLayoutGit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutjavascript = (LinearLayout) findViewById(R.id.linearjavascript);
         linearLayoutwordpress = (LinearLayout)  findViewById(R.id.linearwordpress);
         linearLayoutlaravel = (LinearLayout) findViewById(R.id.linearlaravel);
+        linearLayoutGit = (LinearLayout) findViewById(R.id.lineargit);
 
         linearLayouthtml.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +65,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intlaravel = new Intent(MainActivity.this,LaravelActivity.class);
                 startActivity(intlaravel);
+            }
+        });
+
+        linearLayoutGit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intgit = new Intent(MainActivity.this, GitActivity.class);
+                startActivity(intgit);
             }
         });
     }
