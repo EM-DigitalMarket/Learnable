@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayouthtml;
     LinearLayout linearLayoutcss;
     LinearLayout linearLayoutjavascript;
+    LinearLayout linearLayoutwordpress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         linearLayouthtml = (LinearLayout) findViewById(R.id.linearhtml);
         linearLayoutcss = (LinearLayout) findViewById(R.id.linearcss);
         linearLayoutjavascript = (LinearLayout) findViewById(R.id.linearjavascript);
+        linearLayoutwordpress = (LinearLayout)  findViewById(R.id.linearwordpress);
 
         linearLayouthtml.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intjavascript = new Intent(MainActivity.this,JavaActivity.class);
                 startActivity(intjavascript);
+            }
+        });
+        linearLayoutwordpress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intwordpress = new Intent(MainActivity.this,WordpressActivity.class);
+                startActivity(intwordpress);
             }
         });
     }

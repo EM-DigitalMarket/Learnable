@@ -397,6 +397,7 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/linearwordpress"
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:gravity="center"

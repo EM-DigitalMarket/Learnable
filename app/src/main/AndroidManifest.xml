@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JavaActivity"></activity>
+        <activity android:name=".WordpressActivity"></activity>
+        <activity android:name=".JavaActivity" />
         <activity android:name=".CssActivity" />
         <activity android:name=".HTMLActivity" />
         <activity android:name=".MainActivity">
