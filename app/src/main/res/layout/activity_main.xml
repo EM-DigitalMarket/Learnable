@@ -64,6 +64,7 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/linearhtml"
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:gravity="center"
@@ -72,7 +73,6 @@
 
 
                     <ImageView
-                        android:id="@+id/imagehtml"
                         android:src="@drawable/html"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
