@@ -16,6 +16,10 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayoutwordpress;
     LinearLayout linearLayoutlaravel;
     LinearLayout linearLayoutGit;
+    LinearLayout linearLayoutExcel;
+    LinearLayout linearLayoutPHP;
+    LinearLayout linearLayoutbootstrap;
+    LinearLayout linearLayoutjquery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutwordpress = (LinearLayout)  findViewById(R.id.linearwordpress);
         linearLayoutlaravel = (LinearLayout) findViewById(R.id.linearlaravel);
         linearLayoutGit = (LinearLayout) findViewById(R.id.lineargit);
+        linearLayoutExcel = (LinearLayout) findViewById(R.id.linearexcel);
+        linearLayoutPHP = (LinearLayout) findViewById(R.id.linearphp);
+        linearLayoutbootstrap = (LinearLayout) findViewById(R.id.linearbootstrap);
+        linearLayoutjquery = (LinearLayout) findViewById(R.id.linearjquery);
 
         linearLayouthtml.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,6 +81,38 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intgit = new Intent(MainActivity.this, GitActivity.class);
                 startActivity(intgit);
+            }
+        });
+
+        linearLayoutExcel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intexcel = new Intent(MainActivity.this,ExcelActivity.class);
+                startActivity(intexcel);
+            }
+        });
+
+        linearLayoutPHP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intphp = new Intent(MainActivity.this,PHPActivity.class);
+                startActivity(intphp);
+            }
+        });
+
+        linearLayoutbootstrap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intbootstrap = new Intent(MainActivity.this,BootStrapActivity.class);
+                startActivity(intbootstrap);
+            }
+        });
+
+        linearLayoutjquery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intjquery = new Intent(MainActivity.this,JqueryActivity.class);
+                startActivity(intjquery);
             }
         });
     }

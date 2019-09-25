@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GitActivity"></activity>
+        <activity android:name=".PHPActivity"></activity>
+        <activity android:name=".JqueryActivity" />
+        <activity android:name=".BootStrapActivity" />
+        <activity android:name=".ExcelActivity" />
+        <activity android:name=".GitActivity" />
         <activity android:name=".LaravelActivity" />
         <activity android:name=".WordpressActivity" />
         <activity android:name=".JavaActivity" />
