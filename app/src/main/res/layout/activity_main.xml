@@ -232,7 +232,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="BootStrap"
+                        android:text="BootStrap 3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -268,7 +268,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="PHP"
+                        android:text="PHP 5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
