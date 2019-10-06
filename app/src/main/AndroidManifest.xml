@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PHPActivity"></activity>
+        <activity android:name=".ICDLActivity"></activity>
+        <activity android:name=".SQLActivity" />
+        <activity android:name=".PHPActivity" />
         <activity android:name=".JqueryActivity" />
         <activity android:name=".BootStrapActivity" />
         <activity android:name=".ExcelActivity" />

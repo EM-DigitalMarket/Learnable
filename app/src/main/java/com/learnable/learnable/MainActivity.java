@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     LinearLayout linearLayoutPHP;
     LinearLayout linearLayoutbootstrap;
     LinearLayout linearLayoutjquery;
+    LinearLayout linearLayoutSql;
+    LinearLayout linearLayoutIcdl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutPHP = (LinearLayout) findViewById(R.id.linearphp);
         linearLayoutbootstrap = (LinearLayout) findViewById(R.id.linearbootstrap);
         linearLayoutjquery = (LinearLayout) findViewById(R.id.linearjquery);
+        linearLayoutIcdl = (LinearLayout) findViewById(R.id.linearicdl);
+        linearLayoutSql = (LinearLayout) findViewById(R.id.linearsql);
 
         linearLayouthtml.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -113,6 +117,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intjquery = new Intent(MainActivity.this,JqueryActivity.class);
                 startActivity(intjquery);
+            }
+        });
+
+        linearLayoutSql.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intsql = new Intent(MainActivity.this,SQLActivity.class);
+                startActivity(intsql);
+            }
+        });
+
+        linearLayoutIcdl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent inticdl = new Intent(MainActivity.this,ICDLActivity.class);
+                startActivity(inticdl);
             }
         });
     }

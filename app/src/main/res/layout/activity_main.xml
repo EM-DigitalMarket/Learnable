@@ -289,6 +289,7 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/linearsql"
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:gravity="center"
@@ -439,6 +440,7 @@
                 >
 
                 <LinearLayout
+                    android:id="@+id/linearicdl"
                     android:orientation="vertical"
                     android:padding="16dp"
                     android:gravity="center"
