@@ -298,7 +298,7 @@
 
 
                     <ImageView
-                        android:src="@drawable/english"
+                        android:src="@drawable/mysql"
                         android:layout_width="80dp"
                         android:layout_height="80dp"/>
 
